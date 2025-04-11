@@ -5,7 +5,7 @@ class Solution:
         for ch in reversed(string):
             empty = empty + ch
         
-        if x == empty:
+        if string == empty:
             return True
         else :
             return False
